@@ -3,10 +3,10 @@ import { Column, Entity, PrimaryColumn } from "typeorm";
 @Entity()
 export class Card {
   @PrimaryColumn()
-  index: number;
+  id: number;
 
   @Column()
-  name: number;
+  name: string;
 
   @Column()
   artist: string;
