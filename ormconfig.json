@@ -1,10 +1,10 @@
 {
   "type": "postgres",
-  "host": "localhost",
+  "host": "vaidhyamegha-products.ccnnacj5swfd.ap-south-1.rds.amazonaws.com",
   "port": 5432,
   "username": "postgres",
-  "password": "postgres",
-  "database": "mtg",
+  "password": "2vaSJBYVFP0C6FPvk31K",
+  "database": "postgres",
   "synchronize": false,
   "logging": false,
   "entities": ["src/entity/**/*.ts"],
